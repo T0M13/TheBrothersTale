@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1956930509144917016
 MonoBehaviour:
@@ -48,7 +48,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 1bd3a3e10d22f904b8b83d4affe3ab5e, type: 2}
   audioSource: {fileID: 6287217578934249690}
   songs:
-  - {fileID: 8300000, guid: 7b7ec6ce4e7157a42baba16c8fb41a50, type: 3}
+  - {fileID: 8300000, guid: 20119397969bd184c8e12f53c0e07dd1, type: 3}
   currentClip: 1
   masterGroup: {fileID: 24300002, guid: 1bd3a3e10d22f904b8b83d4affe3ab5e, type: 2}
   musicGroup: {fileID: 5939952736712413728, guid: 1bd3a3e10d22f904b8b83d4affe3ab5e, type: 2}
