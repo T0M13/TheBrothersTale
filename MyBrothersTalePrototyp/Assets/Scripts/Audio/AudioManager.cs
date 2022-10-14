@@ -136,39 +136,6 @@ public class AudioManager : MonoBehaviour
         objectAudioSource.Play();
     }
 
-    //[Command(requiresAuthority = false)]
-    //public void CmdPlayOnObject(string sound, GameObject obj)
-    //{
-    //    RpcPlayOnObject(sound, obj);
-    //}
-
-    //[ClientRpc]
-    //public void RpcPlayOnObject(string sound, GameObject obj)
-    //{
-    //    Sound s = Array.Find(sounds, item => item.name == sound);
-    //    AudioSource objectAudioSource = Array.Find(obj.GetComponents<AudioSource>(), item => item.clip == s.clip);
-
-    //    switch (s.type)
-    //    {
-    //        case AudioType.Master:
-    //            objectAudioSource.outputAudioMixerGroup = masterGroup;
-    //            break;
-    //        case AudioType.Music:
-    //            objectAudioSource.outputAudioMixerGroup = musicGroup;
-    //            break;
-    //        case AudioType.Effects:
-    //            objectAudioSource.outputAudioMixerGroup = effectsGroup;
-    //            break;
-    //        default:
-    //            break;
-    //    }
-    //    objectAudioSource.clip = s.clip;
-    //    objectAudioSource.volume = s.volume;
-    //    objectAudioSource.pitch = s.pitch;
-    //    objectAudioSource.loop = s.loop;
-    //    objectAudioSource.Play();
-    //}
-
 
     public AudioSource GetAudioSource(Sound s, GameObject obj)
     {
@@ -196,7 +163,6 @@ public class AudioManager : MonoBehaviour
 
         }
     }
-
 
     public string GetSongName()
     {
